@@ -1,5 +1,9 @@
 # pm-skills-gemini
 
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Gemini CLI](https://img.shields.io/badge/Gemini-CLI-green)
+![PM Skills](https://img.shields.io/badge/PM%20Skills-65-orange)
+
 **AI-powered Product Management workflows for Gemini CLI**
 
 `pm-skills-gemini` brings the powerful frameworks from
@@ -17,13 +21,22 @@ Product managers need **structured thinking**.
 
 This project transforms AI into a **PM workflow engine**.
 
-Example workflows:
+Example workflows include:
 
 * Product discovery
 * Product strategy
 * PRD writing
 * Launch planning
 * North star metric design
+
+Instead of crafting prompts manually, you can run a structured workflow like this:
+
+```
+/discover idea
+→ assumptions
+→ experiments
+→ insights
+```
 
 ---
 
@@ -37,6 +50,37 @@ Example workflows:
 
 ---
 
+# Prerequisites
+
+Before using this project you need:
+
+* **Node.js 18+**
+* **Gemini CLI**
+
+If you already have Gemini CLI installed, you can skip the next section.
+
+---
+
+# Install Gemini CLI
+
+Install Gemini CLI globally using npm:
+
+```bash
+npm install -g @google/gemini-cli
+```
+
+Start the CLI:
+
+```bash
+gemini
+```
+
+Follow the login instructions in your browser to authenticate with your Google account.
+
+Once authenticated you can exit the CLI.
+
+---
+
 # Installation
 
 Clone the repository:
@@ -46,13 +90,13 @@ git clone https://github.com/runchr-com/pm-skills-gemini
 cd pm-skills-gemini
 ```
 
-Install the skills:
+Install the PM workflows:
 
 ```bash
 ./install.sh
 ```
 
-This will install all pm-skills frameworks into:
+This installs the skills and commands inside the project directory:
 
 ```
 .gemini/
@@ -60,19 +104,29 @@ This will install all pm-skills frameworks into:
  └ skills
 ```
 
+Unlike many CLI tools, this project intentionally avoids global installation.
+
 ---
 
-# Usage
+# Quick Start
 
-Run Gemini CLI inside the project:
+Start Gemini CLI inside the project directory:
 
 ```bash
 gemini
 ```
 
-Then execute commands.
+Then run one of the workflow commands.
+
+Example:
+
+```bash
+/discover AI meeting summarizer
+```
 
 ---
+
+# Example Workflows
 
 ## Product Discovery
 
@@ -100,7 +154,7 @@ Workflow:
 * product vision
 * product strategy
 * business model
-* monetization
+* monetization strategy
 
 ---
 
@@ -141,6 +195,8 @@ Workflow:
 /north-star creator marketplace
 ```
 
+This workflow helps define the key metric that drives product growth.
+
 ---
 
 # Project Structure
@@ -156,6 +212,7 @@ pm-skills-gemini
 │   └ sync-upstream.sh
 │
 ├ install.sh
+├ pm-skills-manifest.json
 └ README.md
 ```
 
@@ -172,28 +229,57 @@ Benefits:
 * reproducible workflows
 * version control
 * team collaboration
-* no global config pollution
+* no global configuration conflicts
 
 ---
 
 # Upstream Project
 
-This project builds on:
+This project builds on the excellent **pm-skills** framework.
+
+Original project:
 
 https://github.com/phuryn/pm-skills
 
-Credits to the original authors.
+Credits to the original authors and contributors.
+
+---
+
+# FAQ
+
+### Do I need Gemini CLI?
+
+Yes. This project extends Gemini CLI with product management workflows.
+
+### Does this modify my global Gemini settings?
+
+No. Everything is installed locally inside the repository.
+
+### Can teams use this together?
+
+Yes. Because workflows are stored in the repository, teams can share the same setup.
 
 ---
 
 # Roadmap
 
-Future plans:
+Future plans include:
 
 * workflow visualization
 * PM workflow API
 * runchr integration
 * VSCode extension
+* workflow chaining
+
+---
+
+# About runchr
+
+This project is part of the broader **runchr ecosystem**.
+
+runchr explores tools for builders, product managers, and AI-native workflows.
+
+More projects coming soon.
 
 ---
 
