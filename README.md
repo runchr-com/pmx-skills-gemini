@@ -42,7 +42,7 @@ Example workflows:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOURNAME/pm-skills-gemini
+git clone https://github.com/runchr-com/pm-skills-gemini
 cd pm-skills-gemini
 ```
 
