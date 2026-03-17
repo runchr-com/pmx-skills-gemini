@@ -4,7 +4,7 @@ set -euo pipefail
 REPO_URL="https://github.com/phuryn/pm-skills"
 ARCHIVE_URL="https://codeload.github.com/phuryn/pm-skills/tar.gz/refs/heads/main"
 PACKAGE_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-GEMINI_HOME="${PACKAGE_ROOT}/.gemini"
+GEMINI_HOME="${HOME}/.gemini"
 SKILLS_DIR="${GEMINI_HOME}/skills"
 COMMANDS_DIR="${GEMINI_HOME}/commands"
 TMP_DIR="$(mktemp -d)"
