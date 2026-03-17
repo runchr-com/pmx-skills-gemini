@@ -12,7 +12,7 @@ AI-powered Product Management workflows for Gemini CLI.
 🌐 **Languages**
 
 - English (default)
-- [한국어](./README.ko.md)
+- [한국어](./README_KO.md)
 
 ---
 
