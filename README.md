@@ -4,12 +4,12 @@
 ![Gemini CLI](https://img.shields.io/badge/Gemini-CLI-green)
 ![PM Skills](https://img.shields.io/badge/PM%20Skills-65-orange)
 
-**AI-powered Product Management workflows for Gemini CLI**
+**AI-powered Product Management workflows for Gemini CLI — globally available**
 
 `pm-skills-gemini` brings the powerful frameworks from
 [pm-skills](https://github.com/phuryn/pm-skills) into **Gemini CLI workflows**.
 
-Instead of writing prompts manually, you can run structured **Product Management workflows** directly from the command line.
+Instead of writing prompts manually, you can run structured **Product Management workflows** directly from the command line — **from anywhere**.
 
 ---
 
@@ -23,30 +23,32 @@ This project transforms AI into a **PM workflow engine**.
 
 Example workflows include:
 
-* Product discovery
-* Product strategy
-* PRD writing
-* Launch planning
-* North star metric design
+* Product discovery  
+* Product strategy  
+* PRD writing  
+* Launch planning  
+* North star metric design  
 
 Instead of crafting prompts manually, you can run a structured workflow like this:
 
 ```
+
 /discover idea
 → assumptions
 → experiments
 → insights
-```
+
+````
 
 ---
 
 # Features
 
-* 65 Product Management skills
-* 36 workflow commands
-* Gemini CLI integration
-* Project-local installation
-* Open-source workflow system
+* 65 Product Management skills  
+* 36 workflow commands  
+* Gemini CLI integration  
+* 🌍 Global installation (`~/.gemini`)  
+* Open-source workflow system  
 
 ---
 
@@ -67,7 +69,7 @@ Install Gemini CLI globally using npm:
 
 ```bash
 npm install -g @google/gemini-cli
-```
+````
 
 Start the CLI:
 
@@ -90,35 +92,34 @@ git clone https://github.com/runchr-com/pm-skills-gemini
 cd pm-skills-gemini
 ```
 
-Install the PM workflows:
+Install the PM workflows globally:
 
 ```bash
+chmod +x install.sh
 ./install.sh
 ```
 
-This installs the skills and commands inside the project directory:
+This installs skills and commands into your global Gemini directory:
 
 ```
-.gemini/
+~/.gemini/
  ├ commands
  └ skills
 ```
 
-Unlike many CLI tools, this project intentionally avoids global installation.
+Now you can use PM workflows from **any directory**.
 
 ---
 
 # Quick Start
 
-Start Gemini CLI inside the project directory:
+Run Gemini CLI from anywhere:
 
 ```bash
 gemini
 ```
 
-Then run one of the workflow commands.
-
-Example:
+Then run a workflow command:
 
 ```bash
 /discover AI meeting summarizer
@@ -199,37 +200,95 @@ This workflow helps define the key metric that drives product growth.
 
 ---
 
+# Global Usage
+
+No need to run inside a specific project.
+
+```bash
+cd anywhere
+gemini
+/discover new product idea
+```
+
+Works across:
+
+* Side projects
+* SaaS products
+* Experiments
+* Client work
+
+---
+
+# Updating
+
+```bash
+git pull
+./install.sh
+```
+
+Reinstalling will overwrite existing skills and commands.
+
+---
+
+# Uninstall
+
+```bash
+chmod +x uninstall.sh
+./uninstall.sh
+```
+
+Removes:
+
+* Installed commands
+* Installed skills
+
+---
+
 # Project Structure
 
 ```
 pm-skills-gemini
 │
-├ .gemini
-│   ├ commands
-│   └ skills
-│
+├ commands
 ├ scripts
 │   └ sync-upstream.sh
 │
 ├ install.sh
+├ uninstall.sh
 ├ pm-skills-manifest.json
 └ README.md
 ```
 
 ---
 
-# Why project-local installation?
+# Why global installation?
 
-Many CLI tools install commands globally.
+Most CLI tools require per-project setup.
 
-We intentionally keep everything inside the repository.
+We optimize for **speed and reusability**.
 
 Benefits:
 
-* reproducible workflows
-* version control
-* team collaboration
-* no global configuration conflicts
+* use workflows instantly anywhere
+* no repeated setup
+* consistent PM thinking across projects
+* optimized for indie hackers and builders
+
+---
+
+# Trade-offs
+
+Global installation means:
+
+* less version isolation
+* potential command conflicts
+
+If you need:
+
+* strict reproducibility
+* team-level version control
+
+→ consider a **local installation model**
 
 ---
 
@@ -239,7 +298,7 @@ This project builds on the excellent **pm-skills** framework.
 
 Original project:
 
-https://github.com/phuryn/pm-skills
+[https://github.com/phuryn/pm-skills](https://github.com/phuryn/pm-skills)
 
 Credits to the original authors and contributors.
 
@@ -253,11 +312,15 @@ Yes. This project extends Gemini CLI with product management workflows.
 
 ### Does this modify my global Gemini settings?
 
-No. Everything is installed locally inside the repository.
+Yes. It installs commands and skills into:
+
+```
+~/.gemini
+```
 
 ### Can teams use this together?
 
-Yes. Because workflows are stored in the repository, teams can share the same setup.
+Possible, but global setup is best suited for individual use.
 
 ---
 
