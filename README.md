@@ -673,3 +673,13 @@ It is not presented as a byte-for-byte mirror of any upstream project.
 ## License
 
 MIT
+
+---
+
+## 🤝 Acknowledgements
+
+Inspired by [pm-skills](https://github.com/phuryn/pm-skills),  
+originally designed for Claude Code.
+
+This project reinterprets the concept for Gemini CLI,  
+focusing on structured workflows, portability, and practical PM thinking.

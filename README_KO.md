@@ -675,3 +675,11 @@ KPI 구조를 정의하거나 다듬습니다.
 ## 라이선스
 
 MIT
+
+---
+
+## 🤝 참고
+
+이 프로젝트는  
+[pm-skills](https://github.com/phuryn/pm-skills)를 참고하여  
+Gemini CLI 환경에 맞게 재구성되었습니다.
