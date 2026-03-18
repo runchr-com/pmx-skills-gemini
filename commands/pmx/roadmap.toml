@@ -1,0 +1,14 @@
+description = "roadmap workflow"
+
+prompt = """
+Run the roadmap workflow.
+
+Prefer these skills when relevant:
+- pmx-roadmap
+- pmx-roadmap-narrative
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

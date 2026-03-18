@@ -1,0 +1,14 @@
+description = "survey workflow"
+
+prompt = """
+Run the survey workflow.
+
+Prefer these skills when relevant:
+- pmx-survey-design
+- pmx-voice-of-customer
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

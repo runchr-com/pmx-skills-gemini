@@ -1,0 +1,15 @@
+description = "sprint workflow"
+
+prompt = """
+Run the sprint workflow.
+
+Prefer these skills when relevant:
+- pmx-sprint-planning
+- pmx-capacity-planning
+- pmx-backlog-refinement
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

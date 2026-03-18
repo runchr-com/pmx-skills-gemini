@@ -1,0 +1,14 @@
+description = "voice workflow"
+
+prompt = """
+Run the voice workflow.
+
+Prefer these skills when relevant:
+- pmx-voice-of-customer
+- pmx-user-interview
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

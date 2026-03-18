@@ -1,0 +1,15 @@
+description = "positioning workflow"
+
+prompt = """
+Run the positioning workflow.
+
+Prefer these skills when relevant:
+- pmx-value-proposition
+- pmx-positioning-statement
+- pmx-messaging-framework
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

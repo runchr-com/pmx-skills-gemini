@@ -1,0 +1,6 @@
+{
+  "name": "pmx-skills",
+  "version": "1.0.0",
+  "description": "Portable PM skills and workflows for Gemini CLI",
+  "contextFileName": "GEMINI.md"
+}

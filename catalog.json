@@ -1,0 +1,595 @@
+{
+  "skills": [
+    {
+      "name": "pmx-discovery",
+      "title": "Product Discovery",
+      "description": "Explore new product ideas, validate problems, and structure early-stage discovery."
+    },
+    {
+      "name": "pmx-brainstorm-ideas",
+      "title": "Brainstorm Ideas",
+      "description": "Generate and expand product or feature ideas from a goal, problem, or opportunity."
+    },
+    {
+      "name": "pmx-define-problem",
+      "title": "Define Problem",
+      "description": "Frame a user or business problem precisely before solutioning."
+    },
+    {
+      "name": "pmx-opportunity-solution-tree",
+      "title": "Opportunity Solution Tree",
+      "description": "Structure discovery using outcomes, opportunities, solutions, assumptions, and experiments."
+    },
+    {
+      "name": "pmx-identify-assumptions",
+      "title": "Identify Assumptions",
+      "description": "Extract explicit and implicit assumptions from an idea, feature, or plan."
+    },
+    {
+      "name": "pmx-prioritize-assumptions",
+      "title": "Prioritize Assumptions",
+      "description": "Rank assumptions by risk, uncertainty, and impact to decide what to validate first."
+    },
+    {
+      "name": "pmx-design-experiments",
+      "title": "Design Experiments",
+      "description": "Design fast experiments to validate assumptions and reduce uncertainty."
+    },
+    {
+      "name": "pmx-validate-ideas",
+      "title": "Validate Ideas",
+      "description": "Evaluate an idea using evidence, assumptions, and likely user value."
+    },
+    {
+      "name": "pmx-user-interview",
+      "title": "User Interview",
+      "description": "Create a structured user interview plan, questions, and synthesis approach."
+    },
+    {
+      "name": "pmx-interview-synthesis",
+      "title": "Interview Synthesis",
+      "description": "Turn interview notes into patterns, insights, and implications."
+    },
+    {
+      "name": "pmx-persona-definition",
+      "title": "Persona Definition",
+      "description": "Define actionable personas or archetypes grounded in behavior and needs."
+    },
+    {
+      "name": "pmx-customer-segmentation",
+      "title": "Customer Segmentation",
+      "description": "Segment users or customers into meaningful groups for product and GTM decisions."
+    },
+    {
+      "name": "pmx-user-journey-map",
+      "title": "User Journey Map",
+      "description": "Map the user journey, friction points, emotions, and opportunities."
+    },
+    {
+      "name": "pmx-jobs-to-be-done",
+      "title": "Jobs To Be Done",
+      "description": "Frame product work around user jobs, circumstances, and desired progress."
+    },
+    {
+      "name": "pmx-problem-interview-guide",
+      "title": "Problem Interview Guide",
+      "description": "Create an interview guide focused on understanding problems before proposing solutions."
+    },
+    {
+      "name": "pmx-solution-interview-guide",
+      "title": "Solution Interview Guide",
+      "description": "Create an interview guide to test reactions to solution concepts or prototypes."
+    },
+    {
+      "name": "pmx-survey-design",
+      "title": "Survey Design",
+      "description": "Design a survey that answers a specific product question with minimal bias."
+    },
+    {
+      "name": "pmx-voice-of-customer",
+      "title": "Voice of Customer",
+      "description": "Summarize customer language, pains, and value signals from qualitative input."
+    },
+    {
+      "name": "pmx-product-vision",
+      "title": "Product Vision",
+      "description": "Draft or refine a product vision that aligns the team around long-term direction."
+    },
+    {
+      "name": "pmx-product-strategy",
+      "title": "Product Strategy",
+      "description": "Turn product goals into a coherent strategy with choices and trade-offs."
+    },
+    {
+      "name": "pmx-strategy-pyramid",
+      "title": "Strategy Pyramid",
+      "description": "Organize vision, strategy, goals, initiatives, and tasks into a coherent stack."
+    },
+    {
+      "name": "pmx-value-proposition",
+      "title": "Value Proposition",
+      "description": "Define the core value proposition for a target customer segment."
+    },
+    {
+      "name": "pmx-positioning-statement",
+      "title": "Positioning Statement",
+      "description": "Write a crisp positioning statement for product, feature, or launch messaging."
+    },
+    {
+      "name": "pmx-goal-setting-okrs",
+      "title": "Goal Setting With OKRs",
+      "description": "Set OKRs that connect strategy to measurable outcomes."
+    },
+    {
+      "name": "pmx-north-star-metric",
+      "title": "North Star Metric",
+      "description": "Define and validate a North Star Metric and its supporting inputs."
+    },
+    {
+      "name": "pmx-kpi-definition",
+      "title": "KPI Definition",
+      "description": "Define KPIs for a product, feature, team, or launch."
+    },
+    {
+      "name": "pmx-success-metrics",
+      "title": "Success Metrics",
+      "description": "Select outcome metrics and guardrails for a product initiative."
+    },
+    {
+      "name": "pmx-metric-tree",
+      "title": "Metric Tree",
+      "description": "Build a metric tree showing how top-level outcomes are driven by sub-metrics."
+    },
+    {
+      "name": "pmx-business-model-canvas",
+      "title": "Business Model Canvas",
+      "description": "Summarize the business model using the classic canvas structure."
+    },
+    {
+      "name": "pmx-pricing-strategy",
+      "title": "Pricing Strategy",
+      "description": "Explore pricing approaches, packaging, and likely trade-offs."
+    },
+    {
+      "name": "pmx-market-entry",
+      "title": "Market Entry",
+      "description": "Plan entry into a market, segment, geography, or channel."
+    },
+    {
+      "name": "pmx-strategic-options",
+      "title": "Strategic Options",
+      "description": "Generate and compare strategic options before making a decision."
+    },
+    {
+      "name": "pmx-roadmap",
+      "title": "Product Roadmap",
+      "description": "Create a roadmap aligned with strategy, sequencing, and dependencies."
+    },
+    {
+      "name": "pmx-roadmap-narrative",
+      "title": "Roadmap Narrative",
+      "description": "Explain a roadmap in a way that earns stakeholder understanding and buy-in."
+    },
+    {
+      "name": "pmx-risk-analysis",
+      "title": "Risk Analysis",
+      "description": "Identify and assess product, business, technical, and operational risks."
+    },
+    {
+      "name": "pmx-prioritize-features",
+      "title": "Prioritize Features",
+      "description": "Prioritize features using impact, effort, confidence, and strategic value."
+    },
+    {
+      "name": "pmx-rice-scoring",
+      "title": "RICE Scoring",
+      "description": "Apply the RICE framework to compare initiatives consistently."
+    },
+    {
+      "name": "pmx-impact-effort-matrix",
+      "title": "Impact Effort Matrix",
+      "description": "Place ideas on an impact-effort matrix and recommend action."
+    },
+    {
+      "name": "pmx-cost-benefit-analysis",
+      "title": "Cost Benefit Analysis",
+      "description": "Compare initiatives by expected benefits, costs, and risk-adjusted value."
+    },
+    {
+      "name": "pmx-opportunity-scoring",
+      "title": "Opportunity Scoring",
+      "description": "Score opportunities based on user pain, frequency, value, and strategic importance."
+    },
+    {
+      "name": "pmx-release-planning",
+      "title": "Release Planning",
+      "description": "Plan a release with scope, sequencing, readiness checks, and risk management."
+    },
+    {
+      "name": "pmx-sprint-planning",
+      "title": "Sprint Planning",
+      "description": "Turn goals into sprint-ready work with realistic commitments."
+    },
+    {
+      "name": "pmx-capacity-planning",
+      "title": "Capacity Planning",
+      "description": "Plan work against team capacity and constraints."
+    },
+    {
+      "name": "pmx-dependency-mapping",
+      "title": "Dependency Mapping",
+      "description": "Map dependencies that affect delivery, adoption, or launch."
+    },
+    {
+      "name": "pmx-scope-definition",
+      "title": "Scope Definition",
+      "description": "Define initiative scope clearly enough to align stakeholders and execution."
+    },
+    {
+      "name": "pmx-backlog-refinement",
+      "title": "Backlog Refinement",
+      "description": "Refine backlog items to improve readiness and prioritization."
+    },
+    {
+      "name": "pmx-priority-memo",
+      "title": "Priority Memo",
+      "description": "Write a short memo explaining what should be prioritized and why."
+    },
+    {
+      "name": "pmx-write-prd",
+      "title": "Write PRD",
+      "description": "Create a structured PRD for a feature or product initiative."
+    },
+    {
+      "name": "pmx-requirements-definition",
+      "title": "Requirements Definition",
+      "description": "Define functional and non-functional requirements clearly."
+    },
+    {
+      "name": "pmx-acceptance-criteria",
+      "title": "Acceptance Criteria",
+      "description": "Write acceptance criteria that make scope testable and aligned."
+    },
+    {
+      "name": "pmx-user-stories",
+      "title": "User Stories",
+      "description": "Write user stories and supporting details for delivery teams."
+    },
+    {
+      "name": "pmx-task-breakdown",
+      "title": "Task Breakdown",
+      "description": "Break an initiative into manageable, execution-ready tasks."
+    },
+    {
+      "name": "pmx-release-notes",
+      "title": "Release Notes",
+      "description": "Write clear release notes for users, customers, or internal teams."
+    },
+    {
+      "name": "pmx-stakeholder-update",
+      "title": "Stakeholder Update",
+      "description": "Write a stakeholder update on status, progress, risks, and asks."
+    },
+    {
+      "name": "pmx-status-report",
+      "title": "Status Report",
+      "description": "Create a concise project or initiative status report."
+    },
+    {
+      "name": "pmx-launch-checklist",
+      "title": "Launch Checklist",
+      "description": "Create a launch checklist covering product, ops, support, and communications."
+    },
+    {
+      "name": "pmx-retrospective",
+      "title": "Retrospective",
+      "description": "Run a structured retrospective and convert observations into actions."
+    },
+    {
+      "name": "pmx-go-to-market",
+      "title": "Go To Market",
+      "description": "Plan a GTM strategy for a new product, feature, or launch."
+    },
+    {
+      "name": "pmx-channel-strategy",
+      "title": "Channel Strategy",
+      "description": "Choose and compare acquisition, distribution, or communication channels."
+    },
+    {
+      "name": "pmx-messaging-framework",
+      "title": "Messaging Framework",
+      "description": "Create a messaging framework across audience, pain, value, and proof."
+    },
+    {
+      "name": "pmx-launch-plan",
+      "title": "Launch Plan",
+      "description": "Create a cross-functional launch plan with milestones and ownership."
+    },
+    {
+      "name": "pmx-growth-loop",
+      "title": "Growth Loop",
+      "description": "Map a growth loop and identify levers that strengthen it."
+    },
+    {
+      "name": "pmx-activation-strategy",
+      "title": "Activation Strategy",
+      "description": "Improve user activation by identifying key moments to value."
+    },
+    {
+      "name": "pmx-onboarding-analysis",
+      "title": "Onboarding Analysis",
+      "description": "Analyze onboarding flow and suggest improvements to reduce drop-off."
+    },
+    {
+      "name": "pmx-funnel-analysis",
+      "title": "Funnel Analysis",
+      "description": "Analyze a conversion funnel, identify drop-offs, and suggest improvements."
+    }
+  ],
+  "commands": [
+    {
+      "name": "discover",
+      "skills": [
+        "pmx-discovery",
+        "pmx-define-problem",
+        "pmx-brainstorm-ideas"
+      ]
+    },
+    {
+      "name": "ost",
+      "skills": [
+        "pmx-opportunity-solution-tree"
+      ]
+    },
+    {
+      "name": "assumptions",
+      "skills": [
+        "pmx-identify-assumptions",
+        "pmx-prioritize-assumptions",
+        "pmx-design-experiments"
+      ]
+    },
+    {
+      "name": "interview",
+      "skills": [
+        "pmx-user-interview",
+        "pmx-problem-interview-guide",
+        "pmx-solution-interview-guide"
+      ]
+    },
+    {
+      "name": "synthesize",
+      "skills": [
+        "pmx-interview-synthesis",
+        "pmx-voice-of-customer"
+      ]
+    },
+    {
+      "name": "segment",
+      "skills": [
+        "pmx-customer-segmentation",
+        "pmx-persona-definition"
+      ]
+    },
+    {
+      "name": "journey",
+      "skills": [
+        "pmx-user-journey-map",
+        "pmx-jobs-to-be-done"
+      ]
+    },
+    {
+      "name": "survey",
+      "skills": [
+        "pmx-survey-design",
+        "pmx-voice-of-customer"
+      ]
+    },
+    {
+      "name": "vision",
+      "skills": [
+        "pmx-product-vision",
+        "pmx-product-strategy",
+        "pmx-strategy-pyramid"
+      ]
+    },
+    {
+      "name": "positioning",
+      "skills": [
+        "pmx-value-proposition",
+        "pmx-positioning-statement",
+        "pmx-messaging-framework"
+      ]
+    },
+    {
+      "name": "okrs",
+      "skills": [
+        "pmx-goal-setting-okrs",
+        "pmx-success-metrics",
+        "pmx-kpi-definition"
+      ]
+    },
+    {
+      "name": "nsm",
+      "skills": [
+        "pmx-north-star-metric",
+        "pmx-metric-tree"
+      ]
+    },
+    {
+      "name": "business-model",
+      "skills": [
+        "pmx-business-model-canvas",
+        "pmx-pricing-strategy",
+        "pmx-market-entry"
+      ]
+    },
+    {
+      "name": "strategy-options",
+      "skills": [
+        "pmx-strategic-options",
+        "pmx-risk-analysis"
+      ]
+    },
+    {
+      "name": "roadmap",
+      "skills": [
+        "pmx-roadmap",
+        "pmx-roadmap-narrative"
+      ]
+    },
+    {
+      "name": "prioritize",
+      "skills": [
+        "pmx-prioritize-features",
+        "pmx-rice-scoring",
+        "pmx-impact-effort-matrix"
+      ]
+    },
+    {
+      "name": "cost-benefit",
+      "skills": [
+        "pmx-cost-benefit-analysis",
+        "pmx-opportunity-scoring"
+      ]
+    },
+    {
+      "name": "scope",
+      "skills": [
+        "pmx-scope-definition",
+        "pmx-priority-memo"
+      ]
+    },
+    {
+      "name": "prd",
+      "skills": [
+        "pmx-write-prd",
+        "pmx-requirements-definition",
+        "pmx-acceptance-criteria"
+      ]
+    },
+    {
+      "name": "stories",
+      "skills": [
+        "pmx-user-stories",
+        "pmx-task-breakdown"
+      ]
+    },
+    {
+      "name": "sprint",
+      "skills": [
+        "pmx-sprint-planning",
+        "pmx-capacity-planning",
+        "pmx-backlog-refinement"
+      ]
+    },
+    {
+      "name": "release",
+      "skills": [
+        "pmx-release-planning",
+        "pmx-release-notes"
+      ]
+    },
+    {
+      "name": "status",
+      "skills": [
+        "pmx-stakeholder-update",
+        "pmx-status-report"
+      ]
+    },
+    {
+      "name": "launch-check",
+      "skills": [
+        "pmx-launch-checklist",
+        "pmx-launch-plan"
+      ]
+    },
+    {
+      "name": "retro",
+      "skills": [
+        "pmx-retrospective"
+      ]
+    },
+    {
+      "name": "gtm",
+      "skills": [
+        "pmx-go-to-market",
+        "pmx-channel-strategy",
+        "pmx-messaging-framework"
+      ]
+    },
+    {
+      "name": "launch",
+      "skills": [
+        "pmx-launch-plan",
+        "pmx-go-to-market",
+        "pmx-launch-checklist"
+      ]
+    },
+    {
+      "name": "growth",
+      "skills": [
+        "pmx-growth-loop",
+        "pmx-activation-strategy",
+        "pmx-onboarding-analysis"
+      ]
+    },
+    {
+      "name": "funnel",
+      "skills": [
+        "pmx-funnel-analysis",
+        "pmx-kpi-definition"
+      ]
+    },
+    {
+      "name": "pricing",
+      "skills": [
+        "pmx-pricing-strategy",
+        "pmx-business-model-canvas"
+      ]
+    },
+    {
+      "name": "validate",
+      "skills": [
+        "pmx-validate-ideas",
+        "pmx-design-experiments"
+      ]
+    },
+    {
+      "name": "dependencies",
+      "skills": [
+        "pmx-dependency-mapping",
+        "pmx-release-planning"
+      ]
+    },
+    {
+      "name": "competition",
+      "skills": [
+        "pmx-market-entry",
+        "pmx-positioning-statement"
+      ]
+    },
+    {
+      "name": "voice",
+      "skills": [
+        "pmx-voice-of-customer",
+        "pmx-user-interview"
+      ]
+    },
+    {
+      "name": "metrics",
+      "skills": [
+        "pmx-success-metrics",
+        "pmx-kpi-definition",
+        "pmx-north-star-metric"
+      ]
+    },
+    {
+      "name": "problem",
+      "skills": [
+        "pmx-define-problem",
+        "pmx-discovery"
+      ]
+    }
+  ]
+}

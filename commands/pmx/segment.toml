@@ -1,0 +1,14 @@
+description = "segment workflow"
+
+prompt = """
+Run the segment workflow.
+
+Prefer these skills when relevant:
+- pmx-customer-segmentation
+- pmx-persona-definition
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

@@ -1,0 +1,14 @@
+description = "pricing workflow"
+
+prompt = """
+Run the pricing workflow.
+
+Prefer these skills when relevant:
+- pmx-pricing-strategy
+- pmx-business-model-canvas
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

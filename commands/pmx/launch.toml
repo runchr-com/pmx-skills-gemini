@@ -1,0 +1,15 @@
+description = "launch workflow"
+
+prompt = """
+Run the launch workflow.
+
+Prefer these skills when relevant:
+- pmx-launch-plan
+- pmx-go-to-market
+- pmx-launch-checklist
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

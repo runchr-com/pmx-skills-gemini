@@ -1,0 +1,14 @@
+description = "launch-check workflow"
+
+prompt = """
+Run the launch-check workflow.
+
+Prefer these skills when relevant:
+- pmx-launch-checklist
+- pmx-launch-plan
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

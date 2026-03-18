@@ -1,0 +1,14 @@
+description = "nsm workflow"
+
+prompt = """
+Run the nsm workflow.
+
+Prefer these skills when relevant:
+- pmx-north-star-metric
+- pmx-metric-tree
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

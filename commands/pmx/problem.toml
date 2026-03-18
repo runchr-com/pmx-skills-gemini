@@ -1,0 +1,14 @@
+description = "problem workflow"
+
+prompt = """
+Run the problem workflow.
+
+Prefer these skills when relevant:
+- pmx-define-problem
+- pmx-discovery
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

@@ -1,0 +1,15 @@
+description = "vision workflow"
+
+prompt = """
+Run the vision workflow.
+
+Prefer these skills when relevant:
+- pmx-product-vision
+- pmx-product-strategy
+- pmx-strategy-pyramid
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

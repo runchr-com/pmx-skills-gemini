@@ -1,0 +1,14 @@
+description = "status workflow"
+
+prompt = """
+Run the status workflow.
+
+Prefer these skills when relevant:
+- pmx-stakeholder-update
+- pmx-status-report
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

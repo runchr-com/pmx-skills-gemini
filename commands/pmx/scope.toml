@@ -1,0 +1,14 @@
+description = "scope workflow"
+
+prompt = """
+Run the scope workflow.
+
+Prefer these skills when relevant:
+- pmx-scope-definition
+- pmx-priority-memo
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

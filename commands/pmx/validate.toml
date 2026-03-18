@@ -1,0 +1,14 @@
+description = "validate workflow"
+
+prompt = """
+Run the validate workflow.
+
+Prefer these skills when relevant:
+- pmx-validate-ideas
+- pmx-design-experiments
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

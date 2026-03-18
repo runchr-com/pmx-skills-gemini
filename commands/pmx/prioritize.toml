@@ -1,0 +1,15 @@
+description = "prioritize workflow"
+
+prompt = """
+Run the prioritize workflow.
+
+Prefer these skills when relevant:
+- pmx-prioritize-features
+- pmx-rice-scoring
+- pmx-impact-effort-matrix
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

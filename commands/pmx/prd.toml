@@ -1,0 +1,15 @@
+description = "prd workflow"
+
+prompt = """
+Run the prd workflow.
+
+Prefer these skills when relevant:
+- pmx-write-prd
+- pmx-requirements-definition
+- pmx-acceptance-criteria
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

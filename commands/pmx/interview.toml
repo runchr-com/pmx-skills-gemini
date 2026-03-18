@@ -1,0 +1,15 @@
+description = "interview workflow"
+
+prompt = """
+Run the interview workflow.
+
+Prefer these skills when relevant:
+- pmx-user-interview
+- pmx-problem-interview-guide
+- pmx-solution-interview-guide
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

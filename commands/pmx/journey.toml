@@ -1,0 +1,14 @@
+description = "journey workflow"
+
+prompt = """
+Run the journey workflow.
+
+Prefer these skills when relevant:
+- pmx-user-journey-map
+- pmx-jobs-to-be-done
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

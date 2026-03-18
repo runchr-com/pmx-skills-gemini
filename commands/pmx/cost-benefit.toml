@@ -1,0 +1,14 @@
+description = "cost-benefit workflow"
+
+prompt = """
+Run the cost-benefit workflow.
+
+Prefer these skills when relevant:
+- pmx-cost-benefit-analysis
+- pmx-opportunity-scoring
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

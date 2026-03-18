@@ -1,0 +1,15 @@
+description = "assumptions workflow"
+
+prompt = """
+Run the assumptions workflow.
+
+Prefer these skills when relevant:
+- pmx-identify-assumptions
+- pmx-prioritize-assumptions
+- pmx-design-experiments
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

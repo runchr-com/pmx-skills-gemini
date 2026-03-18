@@ -1,0 +1,15 @@
+description = "okrs workflow"
+
+prompt = """
+Run the okrs workflow.
+
+Prefer these skills when relevant:
+- pmx-goal-setting-okrs
+- pmx-success-metrics
+- pmx-kpi-definition
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

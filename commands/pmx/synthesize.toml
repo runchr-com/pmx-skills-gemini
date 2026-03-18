@@ -1,0 +1,14 @@
+description = "synthesize workflow"
+
+prompt = """
+Run the synthesize workflow.
+
+Prefer these skills when relevant:
+- pmx-interview-synthesis
+- pmx-voice-of-customer
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

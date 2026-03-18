@@ -1,0 +1,14 @@
+description = "release workflow"
+
+prompt = """
+Run the release workflow.
+
+Prefer these skills when relevant:
+- pmx-release-planning
+- pmx-release-notes
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

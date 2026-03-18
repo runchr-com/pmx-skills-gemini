@@ -1,0 +1,14 @@
+description = "strategy-options workflow"
+
+prompt = """
+Run the strategy-options workflow.
+
+Prefer these skills when relevant:
+- pmx-strategic-options
+- pmx-risk-analysis
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

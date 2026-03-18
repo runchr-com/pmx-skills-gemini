@@ -1,0 +1,15 @@
+description = "growth workflow"
+
+prompt = """
+Run the growth workflow.
+
+Prefer these skills when relevant:
+- pmx-growth-loop
+- pmx-activation-strategy
+- pmx-onboarding-analysis
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

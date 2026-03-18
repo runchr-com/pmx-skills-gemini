@@ -1,0 +1,15 @@
+description = "metrics workflow"
+
+prompt = """
+Run the metrics workflow.
+
+Prefer these skills when relevant:
+- pmx-success-metrics
+- pmx-kpi-definition
+- pmx-north-star-metric
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

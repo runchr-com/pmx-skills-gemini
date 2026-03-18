@@ -1,0 +1,14 @@
+description = "stories workflow"
+
+prompt = """
+Run the stories workflow.
+
+Prefer these skills when relevant:
+- pmx-user-stories
+- pmx-task-breakdown
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

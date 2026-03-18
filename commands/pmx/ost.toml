@@ -1,0 +1,13 @@
+description = "ost workflow"
+
+prompt = """
+Run the ost workflow.
+
+Prefer these skills when relevant:
+- pmx-opportunity-solution-tree
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

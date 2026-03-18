@@ -1,0 +1,15 @@
+description = "discover workflow"
+
+prompt = """
+Run the discover workflow.
+
+Prefer these skills when relevant:
+- pmx-discovery
+- pmx-define-problem
+- pmx-brainstorm-ideas
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

@@ -1,0 +1,15 @@
+description = "business-model workflow"
+
+prompt = """
+Run the business-model workflow.
+
+Prefer these skills when relevant:
+- pmx-business-model-canvas
+- pmx-pricing-strategy
+- pmx-market-entry
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

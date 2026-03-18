@@ -1,0 +1,13 @@
+description = "retro workflow"
+
+prompt = """
+Run the retro workflow.
+
+Prefer these skills when relevant:
+- pmx-retrospective
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

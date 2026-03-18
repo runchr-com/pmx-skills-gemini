@@ -1,0 +1,15 @@
+description = "gtm workflow"
+
+prompt = """
+Run the gtm workflow.
+
+Prefer these skills when relevant:
+- pmx-go-to-market
+- pmx-channel-strategy
+- pmx-messaging-framework
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""

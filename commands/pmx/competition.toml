@@ -1,0 +1,14 @@
+description = "competition workflow"
+
+prompt = """
+Run the competition workflow.
+
+Prefer these skills when relevant:
+- pmx-market-entry
+- pmx-positioning-statement
+
+User input:
+{{args}}
+
+Return a practical, structured result and recommend a next PM step if useful.
+"""
